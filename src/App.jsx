@@ -1,10 +1,10 @@
 import { Routes, Route, Navigate } from 'react-router-dom';
-import { useAuth } from './components/auth/AuthContext';
-import Login from './components/auth/Login';
-import Signup from './components/auth/Signup';
-import Dashboard from './components/Dashboard';
-import Progress from './components/Progress';
-import Profile from './components/Profile';
+import { useAuth } from './components/auth/AuthContext.jsx';
+import Login from './components/auth/Login.jsx';
+import Signup from './components/auth/Signup.jsx';
+import Dashboard from './components/Dashboard.jsx';
+import Progress from './components/Progress.jsx';
+import Profile from './components/Profile.jsx';
 
 function App() {
   const { user } = useAuth();
